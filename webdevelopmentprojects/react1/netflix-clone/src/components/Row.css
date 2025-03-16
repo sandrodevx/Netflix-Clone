@@ -1,0 +1,25 @@
+.row {
+    margin-left: 20px;
+    color: white;
+  }
+  
+  .row-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .row-posters {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+  }
+  
+  .row-poster {
+    max-height: 150px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .row-poster:hover {
+    transform: scale(1.08);
+  }
